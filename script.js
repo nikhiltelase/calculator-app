@@ -34,6 +34,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     break;
             }
 
+            // Play the click sound
+            clickSound.play();
+            
             // Adjust font size
             adjustFontSize();
         }
